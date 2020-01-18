@@ -23,7 +23,7 @@ export default () => {
             </div>
             <div className={styles['project-status-container']}>
                 {/* Todo: Project status needs to be dynamic */}
-                <img src={Fire} alt='project-fire-image' className={styles['project-fire']} />
+                <img src={Fire} alt='project-fire' className={styles['project-fire']} />
                 <p className={styles['project-status']}> Falling behind! </p> 
             </div>
           </div>

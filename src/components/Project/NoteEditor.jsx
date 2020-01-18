@@ -57,7 +57,7 @@ export default ({ user, team }) => {
       <h2>Project Notes</h2>
       <div className={styles['editor-container']}>
         <div className={styles['avatar-container']}>
-          <img src={user.avatar} />
+          <img src={user.avatar} alt="profile-pic"/>
         </div>
         <form
           onSubmit={e => {
@@ -133,7 +133,7 @@ export default ({ user, team }) => {
                     {absentees.map(({ firstName, lastName, avatar }) => {
                       return (
                         <div className={styles['mini-avatar-container']}>
-                          <img src={avatar} />
+                          <img src={avatar} alt="profile-pic"/>
                           <p>
                             {firstName} {lastName}
                           </p>

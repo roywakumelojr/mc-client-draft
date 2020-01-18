@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, createContext } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { withAuth, SecureRoute } from '@okta/okta-react';
 import { Switch } from 'react-router-dom';
 

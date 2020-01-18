@@ -34,7 +34,7 @@ export default ({ team }) => {
             {renderedTeam[role].map(name => {
               return (
                 <div className={styles['members']}>
-                  <img src={name.avatar} className={styles['avatar']} />
+                  <img src={name.avatar} className={styles['avatar']} alt="profile-pic" />
                   <p className={styles['team-names']}>
                     {name.firstName} {name.lastName}
                   </p>
